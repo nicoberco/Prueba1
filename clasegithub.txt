@@ -1,0 +1,339 @@
+
+Sinergia08@Sinergia08-PC MINGW64 ~
+$ cd
+
+Sinergia08@Sinergia08-PC MINGW64 ~
+$ cd Desktop/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ mkdir clasegit
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ cd clasegit/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit
+$ ls
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.email=nbernalco@gmail.com
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit
+$ git init
+Initialized empty Git repository in C:/Users/Sinergia08/Desktop/clasegit/.git/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ ls
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ ls -lah
+total 20K
+drwxr-xr-x 1 Sinergia08 197121 0 sep 19 19:38 ./
+drwxr-xr-x 1 Sinergia08 197121 0 sep 19 19:34 ../
+drwxr-xr-x 1 Sinergia08 197121 0 sep 19 19:38 .git/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ cd .git
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit/.git (GIT_DIR!)
+$ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit/.git (GIT_DIR!)
+$ cd..
+bash: cd..: command not found
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit/.git (GIT_DIR!)
+$ cd ..
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ cd ..
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ mkdir gitclone
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ cd gitclone/
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/gitclone
+$ gitclone https://github.com/TalentoBogotaFedesoft/Asesofware-047-Grupo1.git
+bash: gitclone: command not found
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/gitclone
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/gitclone
+$ git clone https://github.com/TalentoBogotaFedesoft/Asesofware-047-Grupo1.git
+Cloning into 'Asesofware-047-Grupo1'...
+remote: Counting objects: 5879, done.
+remote: Compressing objects: 100% (3778/3778), done.
+remote: Total 5879 (delta 423), reused 4117 (delta 351), pack-reused 1678
+Receiving objects: 100% (5879/5879), 27.18 MiB | 3.80 MiB/s, done.
+Resolving deltas: 100% (611/611), done.
+Checking out files: 100% (4028/4028), done.
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/gitclone
+$ cd ..
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ mkdir prueba
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ mkdir prueba/
+mkdir: cannot create directory ‘prueba/’: File exists
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ cd prueba
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba
+$ git clone https://github.com/TalentoBogotaFedesoft/CCYD-66-Calles-sin-delicuencia.git
+Cloning into 'CCYD-66-Calles-sin-delicuencia'...
+remote: Counting objects: 408, done.
+remote: Compressing objects: 100% (289/289), done.
+remote: Total 408 (delta 88), reused 388 (delta 72), pack-reused 0
+Receiving objects: 100% (408/408), 10.47 MiB | 1.66 MiB/s, done.
+Resolving deltas: 100% (88/88), done.
+Checking out files: 100% (223/223), done.
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba
+$ cd clasegit
+bash: cd: clasegit: No such file or directory
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba
+$ cd ..
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ cd clasegit
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ touch index.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ Lls
+bash: Lls: command not found
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ ls
+index.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git  add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git add .
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/clasegit (master)
+$ cd ..
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ git clone git@github.com:Laborapp/docs.git
+Cloning into 'docs'...
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ git clone https://github.com/nicoberco/Prueba1.git
+Cloning into 'Prueba1'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ touch colombia.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop
+$ cd prueba1
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ touch col.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        col.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git add col.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   col.html
+
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git push origin master
+Everything up-to-date
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ touch ejem1.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   col.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ejem1.html
+
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git add .
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   col.html
+        new file:   ejem1.html
+
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ got commit
+bash: got: command not found
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git commit
+[master 01c75b0] Se crean 2 html
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 col.html
+ create mode 100644 ejem1.html
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nicoberco/Prueba1.git
+   9b3ec90..01c75b0  master -> master
+
+Sinergia08@Sinergia08-PC MINGW64 ~/Desktop/prueba1 (master)
+$
